@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: bisque;
+    width: 100%;
+
+}
+
+header {
+    background-color: bisque;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 30px;
+    padding: 5px;
+   
+}
+
+nav {
+    margin-right: 60%;
+}
+.nav a{
+    gap: 33px;
+}
+
