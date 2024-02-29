@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
 footer {
     background-color: bisque;
     width: 100%;
@@ -10,23 +18,44 @@ footer {
 }
 
 header {
+    /*
     background-color: bisque;
     height: 50px;
+    justify-content: space-between;
+    align-items: center;*/
+    top: 0;
+    left: 0;
+    height: 50px;
+    display: flex;
+    background-color: #FDF0EA;
+}
+
+.logo {
+    padding: 10px;
+
+}
+
+.nav {
+    /*
+    margin-left: 50px;
+    background-color: red;
+    align-items: center;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo {
-    padding-left: 30px;
-    padding: 5px;
-   
+span a {
+    padding: 10px;
 }
 
-nav {
-    margin-right: 60%;
-}
-.nav a{
-    gap: 33px;
+button {
+    background-color: rgb(255, 128, 0);
 }
 
+.login-button {
+    width: 70px;
+    height: 30px;
+    color: white;
+    border-color: transparent;
+}
