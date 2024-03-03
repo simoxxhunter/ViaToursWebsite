@@ -11,12 +11,6 @@
 
 
 
-footer {
-    background-color: bisque;
-    width: 100%;
-
-}
-
 header {
     /*
     background-color: bisque;
@@ -118,7 +112,27 @@ button {
     width: 35px;
 }
 #qualitiestitle{
+ padding-top: 8px;
+ font-size: 20PX;
 }
 #qualitiesparagraph{
-    width: 200px;
+ font-size: 14px;
+ padding-top: 8px;
+}
+
+/* BOTTOM SECTION --------------------------------------------------*/
+ .footer{
+
+    background-color: #FDF0EA;
+    padding-left: 100px;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    margin-top: 6%;
+   
+  }
+
+.p1{
+  font-size: 76%;
+  margin-top: 5px;
+  
 }
